@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import ColorDisplay from "./components/ColorDisplay";
-import { fetchRandomColor, ColorData } from './services/color';
+import { fetchRandomColor } from './services/color';
+import type { ColorData } from './services/color';
 import styled from 'styled-components'
 import './App.css'
 
